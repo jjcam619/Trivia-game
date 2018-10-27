@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://images.wikia.nocookie.net/__cb23/seinfeld/images/5/50/Wiki-background");
+    background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+.img {
+	height: 100px;
+	width: 150px;
+	text-align: center;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+	color: blue;
+	
+}
